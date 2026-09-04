@@ -1,0 +1,6 @@
+{
+  "name": "ReflectAI",
+  "description": "A secure user-authenticated reflection journal and brainstorming companion powered by Gemini API and Cloud Firestore.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

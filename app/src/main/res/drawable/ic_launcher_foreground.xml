@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Central Glowing AI Journal Shield / Lotus -->
+    <!-- Outer Glow / Halo -->
+    <path
+        android:pathData="M54,24 C68,24 80,36 80,52 C80,70 54,84 54,84 C54,84 28,70 28,52 C28,36 40,24 54,24 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="24"
+                android:endX="80"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#33FFB74D" android:offset="0.0" />
+                <item android:color="#1A7C4DFF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Book/Journal Pages -->
+    <path
+        android:pathData="M34,40 C42,37 48,39 54,42 C60,39 66,37 74,40 L74,70 C66,67 60,69 54,72 C48,69 42,67 34,70 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="34"
+                android:startY="40"
+                android:endX="74"
+                android:endY="72"
+                android:type="linear">
+                <item android:color="#FFFFFF" android:offset="0.0" />
+                <item android:color="#E0E7FF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Book Spine / Center Divider -->
+    <path
+        android:pathData="M54,42 L54,72"
+        android:strokeWidth="2"
+        android:strokeColor="#7C4DFF" />
+
+    <!-- Sparkle Stars / Neural AI Radiance -->
+    <!-- Top Sparkle -->
+    <path
+        android:pathData="M54,22 L56,28 L62,30 L56,32 L54,38 L52,32 L46,30 L52,28 Z"
+        android:fillColor="#FFD54F" />
+
+    <!-- Right Sparkle -->
+    <path
+        android:pathData="M78,34 L79.5,38 L83.5,39.5 L79.5,41 L78,45 L76.5,41 L72.5,39.5 L76.5,38 Z"
+        android:fillColor="#FFE082" />
+
+    <!-- Left Sparkle -->
+    <path
+        android:pathData="M30,34 L31.5,38 L35.5,39.5 L31.5,41 L30,45 L28.5,41 L24.5,39.5 L28.5,38 Z"
+        android:fillColor="#FFE082" />
+</vector>
+
